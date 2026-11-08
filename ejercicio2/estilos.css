@@ -1,0 +1,81 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 20px;
+    background-color: #f3f5f7;
+}
+
+.recuadro {
+    background: white;
+    padding: 2rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+h1 {
+    color: #a15ba9;
+    margin-top: 0;
+}
+
+.recuadro div {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    border: 1px solid #7c4e7a;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #723a6f;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #723a6f;
+}
+
+.reglas {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.reglas li {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+#mensaje-final {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.btn-volver {
+    display: inline-block;
+    background-color: #f1f5f9;
+    color: #475569;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.btn-volver:hover {
+    background-color: #e2e8f0;
+    color: #1e293b;
+}

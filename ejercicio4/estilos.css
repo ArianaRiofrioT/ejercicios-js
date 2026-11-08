@@ -1,0 +1,112 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 20px;
+    background-color: #f3f5f7;
+}
+
+.recuadro {
+    background: white;
+    padding: 2rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    width: 350px;
+}
+
+h1 {
+    color: #c975c1;
+    margin-top: 0;
+}
+
+.form-grupo {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.4rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #9c6e9b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9c6e9b;
+}
+
+.error {
+    color: #9f1239;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8fafc;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.tarea-texto {
+    flex: 1;
+    margin-left: 0.5rem;
+    word-break: break-word;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: #64748b;
+}
+
+.btn-eliminar {
+    background-color: #ef4444;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+}
+
+.btn-eliminar:hover {
+    background-color: #dc2626;
+}
+
+.btn-volver {
+    display: inline-block;
+    background-color: #f1f5f9;
+    color: #475569;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.btn-volver:hover {
+    background-color: #e2e8f0;
+    color: #1e293b;
+}

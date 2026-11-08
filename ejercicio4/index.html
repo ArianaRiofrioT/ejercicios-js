@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Lista Interactiva de Tareas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="recuadro">
+        <a href="../index.html" class="btn-volver">← Volver al menú</a>
+
+        <h1>Lista de Tareas</h1>
+        
+        <div class="form-grupo">
+            <input type="text" id="input-tarea" placeholder="Escribe una nueva tarea">
+            <button id="btn-agregar" type="button">Agregar tarea</button>
+        </div>
+
+        <p id="mensaje-error" class="error"></p>
+
+        <ul id="lista-tareas"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

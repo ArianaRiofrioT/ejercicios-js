@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora de Compra</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="recuadro">
+        <a href="../index.html" class="btn-volver">← Volver al menú</a>
+
+        <h1>Calculadora de Compra</h1>
+        
+        <div>
+            <label for="precio">Precio unitario:</label><br>
+            <input type="number" id="precio" step="0.01">
+        </div>
+
+        <div>
+            <label for="cantidad">Cantidad:</label><br>
+            <input type="number" id="cantidad">
+        </div>
+
+        <button id="btn-calcular">Calcular total</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
